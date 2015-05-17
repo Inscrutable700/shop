@@ -11,6 +11,12 @@ function initializeCart(){
 	}
 }
 
+function updateCount(){
+	var cartData = getCartData() || {};
+	var count = Object.keys(cartData).length;
+	document.getElementById('product-count').textContent = count;
+}
+
 // Функция кроссбраузерной установка обработчика событий
 function addEvent(elem, type, handler){
   if(elem.addEventListener){
@@ -43,7 +49,9 @@ function addToCart(e){
   if(!setCartData(cartData)){ // Обновляем данные в LocalStorage
     this.disabled = false; // разблокируем кнопку после обновления LS
   }
- return false;
+  updateCount();
+  
+  return false;
 }
 
 /* Открыть корзину */

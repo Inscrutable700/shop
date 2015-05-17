@@ -58,6 +58,7 @@
 	<div class="wrapper">
 	
 		<!-- Main -->
+		<a href="order.html">Корзина</a><p id="product-count"></p>
 		<div class="shop-bg-soft">
 			<div class="wrapper-min">
 			
@@ -83,7 +84,7 @@
 					</div>
 					<div class="shop-column item_box">
 						<p>190 грн.</p>
-						<button class="button-small-blue add_item"data-id="3">Добавить в корзину</button>
+						<button class="button-small-blue add_item" data-id="3">Добавить в корзину</button>
 					</div>				
 				</div>				
 			</div>
@@ -100,17 +101,17 @@
 					<div class="shop-img">
 						<img src= "images/shop-bg-medium.png" alt="Шугарис. Паста для шугаринга. Украина.">
 					</div>					
-					<div class="shop-column">
+					<div class="shop-column item_box">
 						<p>120 грн.</p>
-						<a href="order.html?id=4"><button class="button-small-blue">Купить</button></a>
+						<button class="button-small-blue add_item" data-id="4">Добавить в корзину</button>
 					</div>
-					<div class="shop-column">
+					<div class="shop-column item_box">
 						<p>150 грн.</p>
-						<a href="order.html?id=5"><button class="button-small-blue">Купить</button></a>
+						<button class="button-small-blue add_item" data-id="5">Добавить в корзину</button>
 					</div>
-					<div class="shop-column">
+					<div class="shop-column item_box">
 						<p>190 грн.</p>
-						<a href="order.html?id=6"><button class="button-small-blue">Купить</button></a>
+						<button class="button-small-blue add_item" data-id="6">Добавить в корзину</button>
 					</div>				
 				</div>	
 			
@@ -128,17 +129,17 @@
 					<div class="shop-img">
 						<img src= "images/shop-bg-solid.png" alt="Шугарис. Паста для шугаринга. Украина.">
 					</div>					
-					<div class="shop-column">
+					<div class="shop-column item_box">
 						<p>120 грн.</p>
-						<a href="order.html?id=7"><button class="button-small-blue">Купить</button></a>
+						<button class="button-small-blue add_item" data-id="7">Добавить в корзину</button>
 					</div>
-					<div class="shop-column">
+					<div class="shop-column item_box">
 						<p>150 грн.</p>
-						<a href="order.html?id=8"><button class="button-small-blue">Купить</button></a>
+						<button class="button-small-blue add_item" data-id="8">Добавить в корзину</button>
 					</div>
-					<div class="shop-column">
+					<div class="shop-column item_box">
 						<p>190 грн.</p>
-						<a href="order.html?id=9"><button class="button-small-blue">Купить</button></a>
+						<button class="button-small-blue add_item" data-id="9">Добавить в корзину</button>
 					</div>				
 				</div>				
 			</div>
@@ -235,6 +236,7 @@
 	<script type="text/javascript">
 		$( document ).ready( function(){
 			initializeCart();
+			updateCount();
 		} )
 	</script>
 	
