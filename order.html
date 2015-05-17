@@ -21,6 +21,8 @@
 		<script src="js/scriptjava.js" type="text/javascript" language="javascript"></script>
 		<script type="text/javascript" src="js/jquery.the-modal.js"></script>
 		<script type="text/javascript" src="js/dayTime.js"></script>
+		<script type="text/javascript" src="js/cart.js"> </script>
+		<script type="text/javascript" src="js/order.js"> </script>
 		<link rel="stylesheet" type="text/css" href="style/the-modal.css" media="all" />
 
 		
@@ -76,14 +78,14 @@
 									<h2 id="name">Оформление заказа</h2>
 								</div>
 								
-								<form action= "post.php" method= "POST">
+								<form action= "post.php" method= "POST" id="send-form">
 									<input type= "text" name= "name" placeholder="Ваше имя" required="required"> 
 									<input type= "text" name= "email" placeholder="Адрес электронной почты" required="required">
 									<input type= "text" name= "telephone" placeholder="Основной телефон" required="required">
 									<textarea rows= "10" cols= "45" name= "message" placeholder="Комментарий к заказу. Например, звоните после 11:00"></textarea>
 									<div>
 										<input type= "hidden" name= "density" id = "product">
-										<button type= "submit">Все верно. Заказать.</button>
+										<button type= "submit" onclick="sendForm()">Все верно. Заказать.</button>
 									</div>
 									<div class="order-comment">
 										<span>Купить несколько баночек можно указав это в "Комментариях<br>к заказу". Например, мягкий 350 г - 2 шт, средний 650 г - 5 шт.<br>Это временное неудобство — мы над этим работаем.</span>
@@ -93,11 +95,8 @@
 							</div>							
 							
 							<!--Right-->
-							<div class="order-right">
-								<img id = "image" src = "" alt="" width = 400px>
-								<p><span id="productTitle"></span><span id="productPrice"></span></p>
-								<br>
-								<p id = "shortDescription"></p>
+							<div class="order-right" id="cart-products">
+								
 							</div>
 							
 						</div>
@@ -109,27 +108,6 @@
 	
 	<!--Footer-->	
 	<?php include ("blocks/footer.html");?>	
-
-	
-	 <script>
-		  var a = window.location.search.substring(4);
-		  $$r(function() {
-		  if (a>=1){
-		  document.getElementById("image").setAttribute( 'src', product[a].image );
-		  document.getElementById("productTitle").innerHTML = product[a].title + ', ' + product[a].weight + " г";
-		  document.getElementById("productPrice").innerHTML = "<br>" + product[a].price + " грн.";
-		  document.getElementById("shortDescription").innerHTML = product[a].shortDescr;
-		  document.getElementById("product").value = product[a].title + ' ' + product[a].weight + " г,  " + product[a].price + " грн.";
-		  } else {
-		  document.getElementById("image").setAttribute( 'src', product[7].image );
-		  document.getElementById("productTitle").innerHTML = product[7].title + ', ' + product[7].weight + " г";
-		  document.getElementById("productPrice").innerHTML = "<br>" + product[7].price + " грн.";
-		  document.getElementById("shortDescription").innerHTML = product[7].shortDescr;
-		  document.getElementById("product").value = product[7].title + ' ' + product[7].weight + " г,  " + product[7].price + " грн.";
-		  }
-			 olyx();
-		 });
-	</script>
 
 </body>
 

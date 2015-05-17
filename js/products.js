@@ -1,6 +1,6 @@
-var product = [];
+var products = [];
 //Sugaris solid	
-product[1] = {
+products[1] = {
 				title:"Мягкий шугарис",
 				density:1,
 				weight:350,
@@ -9,7 +9,7 @@ product[1] = {
 				longDescr:"",
 				image:"images/photos-bank/sugaris-350-soft.jpg"
 				};
-product[2] = {
+products[2] = {
 				title:"Мягкий шугарис",
 				density:1,
 				weight:400,
@@ -18,7 +18,7 @@ product[2] = {
 				longDescr:"",
 				image:"images/photos-bank/sugaris-400-soft.jpg"
 				};				
-product[3] = {
+products[3] = {
 				title:"Мягкий шугарис",
 				density:1,
 				weight:650,
@@ -29,7 +29,7 @@ product[3] = {
 				};
 				
 //Sugaris soft				
-product[4] =  {
+products[4] =  {
 				title:"Средний шугарис",
 				density:2,
 				weight:350,
@@ -38,7 +38,7 @@ product[4] =  {
 				longDescr:"",
 				image:"images/photos-bank/sugaris-350-medium.jpg"
 				};
-product[5] = {
+products[5] = {
 				title:"Средний шугарис",
 				density:2,
 				weight:400,
@@ -47,7 +47,7 @@ product[5] = {
 				longDescr:"",
 				image:"images/photos-bank/sugaris-400-medium.jpg"
 				};				
-product[6] = {
+products[6] = {
 				title:"Средний шугарис",
 				density:2,
 				weight:650,
@@ -58,7 +58,7 @@ product[6] = {
 				};	
 				
 //Sugaris normal
-product[7] = {
+products[7] = {
 				title:"Твердый шугарис",
 				density:3,
 				weight:350,
@@ -67,7 +67,7 @@ product[7] = {
 				longDescr:"",
 				image:"images/photos-bank/sugaris-350-solid.jpg"
 				};
-product[8] = {
+products[8] = {
 				title:"Твердый шугарис",
 				density:3,
 				weight:400,
@@ -76,7 +76,7 @@ product[8] = {
 				longDescr:"",
 				image:"images/photos-bank/sugaris-400-solid.jpg"
 				};				
-product[9] = {
+products[9] = {
 				title:"Твердый шугарис",
 				density:3,
 				weight:650,

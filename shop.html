@@ -21,7 +21,7 @@
 		<script type="text/javascript" src="js/jquery.the-modal.js"></script>
 		<script type="text/javascript" src="js/dayTime.js"></script>
 		<link rel="stylesheet" type="text/css" href="style/the-modal.css" media="all" />
-		
+		<script type="text/javascript" src="js/cart.js"/>
 		
 		<!-- Yandex.Metrika counter -->
 					<script type="text/javascript">
@@ -73,17 +73,17 @@
 					<div class="shop-img">
 						<img src= "images/shop-bg-soft.png" alt="Шугарис. Паста для шугаринга. Украина.">
 					</div>					
-					<div class="shop-column">
+					<div class="shop-column item_box">
 						<p>120 грн.</p>
-						<a href="order.html?id=1"><button class="button-small-blue">Купить</button></a>
+						<button class="button-small-blue add_item" data-id="1">Добавить в корзину</button>
 					</div>
-					<div class="shop-column">
+					<div class="shop-column item_box">
 						<p>150 грн.</p>
-						<a href="order.html?id=2"><button class="button-small-blue">Купить</button></a>
+						<button class="button-small-blue add_item" data-id="2">Добавить в корзину</button>
 					</div>
-					<div class="shop-column">
+					<div class="shop-column item_box">
 						<p>190 грн.</p>
-						<a href="order.html?id=3"><button class="button-small-blue">Купить</button></a>
+						<button class="button-small-blue add_item"data-id="3">Добавить в корзину</button>
 					</div>				
 				</div>				
 			</div>
@@ -232,7 +232,11 @@
 	<!--Footer-->	
 	<?php include ("blocks/footer.html");?>	
 		
-	
+	<script type="text/javascript">
+		$( document ).ready( function(){
+			initializeCart();
+		} )
+	</script>
 	
 	<!--Ява Попап Задать вопрос-->
 	<script type="text/javascript">
