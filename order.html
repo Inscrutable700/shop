@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Шугарис — Купить — Украина.</title>
+		<meta name="description" content="Шугарис купить.">
+		<meta name="keywords" content="Купить Шугарис, шугаринг купить, мягкий, средний, твердый">
+		
+		<meta http-equiv="Expires" content="Mon, 27 Apr 2015 00:00:00 GMT"/>
+		
+		<meta name='yandex-verification' content='6b88e88116b99554' />
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:600,400,300&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="style/animate.css" /> <!--Анимация-->
+		<link rel="stylesheet" href="style/style.css">
+		<script src="js/products.js" type="text/javascript" language="javascript"></script>
+		<link rel="icon" type="image/png" href="images/favicon.png" />
+		<link rel="apple-touch-icon" href="images/favicon.png" />
+		
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/scriptjava.js" type="text/javascript" language="javascript"></script>
+		<script type="text/javascript" src="js/jquery.the-modal.js"></script>
+		<script type="text/javascript" src="js/dayTime.js"></script>
+		<link rel="stylesheet" type="text/css" href="style/the-modal.css" media="all" />
+
+		
+		
+		
+		
+		<!-- Yandex.Metrika counter -->
+					<script type="text/javascript">
+			(function (d, w, c) {
+				(w[c] = w[c] || []).push(function() {
+					try {
+						w.yaCounter29403430 = new Ya.Metrika({id:29403430,
+								webvisor:true,
+								clickmap:true,
+								trackLinks:true,
+								accurateTrackBounce:true});
+					} catch(e) { }
+				});
+
+				var n = d.getElementsByTagName("script")[0],
+					s = d.createElement("script"),
+					f = function () { n.parentNode.insertBefore(s, n); };
+				s.type = "text/javascript";
+				s.async = true;
+				s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+				if (w.opera == "[object Opera]") {
+					d.addEventListener("DOMContentLoaded", f, false);
+				} else { f(); }
+			})(document, window, "yandex_metrika_callbacks");
+			</script>
+			<noscript><div><img src="//mc.yandex.ru/watch/29403430" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+		<!-- /Yandex.Metrika counter -->
+	</head>
+
+	
+	
+<body>
+	<div class="wrapper">
+		<div class="order-header">
+			<div class="wrapper-min">
+					<!--Header-->	
+					<?php include ("blocks/header.html");?>
+			</div>
+		
+					<!--Order--->
+					<div class="order-wrapper-min">
+						<div>			
+						
+							<!--Form-->
+							<div class="order-left">							
+								<div class="title">
+									<h2 id="name">Оформление заказа</h2>
+								</div>
+								
+								<form action= "post.php" method= "POST">
+									<input type= "text" name= "name" placeholder="Ваше имя" required="required"> 
+									<input type= "text" name= "email" placeholder="Адрес электронной почты" required="required">
+									<input type= "text" name= "telephone" placeholder="Основной телефон" required="required">
+									<textarea rows= "10" cols= "45" name= "message" placeholder="Комментарий к заказу. Например, звоните после 11:00"></textarea>
+									<div>
+										<input type= "hidden" name= "density" id = "product">
+										<button type= "submit">Все верно. Заказать.</button>
+									</div>
+									<div class="order-comment">
+										<span>Купить несколько баночек можно указав это в "Комментариях<br>к заказу". Например, мягкий 350 г - 2 шт, средний 650 г - 5 шт.<br>Это временное неудобство — мы над этим работаем.</span>
+									
+									</div>
+								</form>
+							</div>							
+							
+							<!--Right-->
+							<div class="order-right">
+								<img id = "image" src = "" alt="" width = 400px>
+								<p><span id="productTitle"></span><span id="productPrice"></span></p>
+								<br>
+								<p id = "shortDescription"></p>
+							</div>
+							
+						</div>
+					</div>
+		</div>
+	</div>
+	
+	
+	
+	<!--Footer-->	
+	<?php include ("blocks/footer.html");?>	
+
+	
+	 <script>
+		  var a = window.location.search.substring(4);
+		  $$r(function() {
+		  if (a>=1){
+		  document.getElementById("image").setAttribute( 'src', product[a].image );
+		  document.getElementById("productTitle").innerHTML = product[a].title + ', ' + product[a].weight + " г";
+		  document.getElementById("productPrice").innerHTML = "<br>" + product[a].price + " грн.";
+		  document.getElementById("shortDescription").innerHTML = product[a].shortDescr;
+		  document.getElementById("product").value = product[a].title + ' ' + product[a].weight + " г,  " + product[a].price + " грн.";
+		  } else {
+		  document.getElementById("image").setAttribute( 'src', product[7].image );
+		  document.getElementById("productTitle").innerHTML = product[7].title + ', ' + product[7].weight + " г";
+		  document.getElementById("productPrice").innerHTML = "<br>" + product[7].price + " грн.";
+		  document.getElementById("shortDescription").innerHTML = product[7].shortDescr;
+		  document.getElementById("product").value = product[7].title + ' ' + product[7].weight + " г,  " + product[7].price + " грн.";
+		  }
+			 olyx();
+		 });
+	</script>
+
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://sugaris.com.ua/</loc>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://sugaris.com.ua/index.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://sugaris.com.ua/support.html</loc>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>http://sugaris.com.ua/shop.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://sugaris.com.ua/order.html?id=1</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://sugaris.com.ua/order.html?id=2</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://sugaris.com.ua/order.html?id=3</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://sugaris.com.ua/order.html?id=4</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://sugaris.com.ua/order.html?id=5</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://sugaris.com.ua/order.html?id=6</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://sugaris.com.ua/order.html?id=7</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://sugaris.com.ua/order.html?id=8</loc>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://sugaris.com.ua/order.html?id=9</loc>
+  <priority>0.64</priority>
+</url>
+</urlset>

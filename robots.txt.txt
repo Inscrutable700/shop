@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /description.html?density=3
+Disallow: /description.html?density=2
+Disallow: /description.html?density=1
+Disallow: */test/
+Host: sugaris.com.ua
+
+Sitemap: http://sugaris.com.ua/sitemap.xml

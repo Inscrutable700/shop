@@ -1,0 +1,825 @@
+/*======================================================
+														ТЕКСТ
+======================================================*/
+			
+		body{
+			font-family: 'Open Sans',arial,sans-serif;
+			margin: 0px;
+			padding: 0px;
+		}
+				
+
+		h3{
+			font-weight: 300;
+			font-size: 45px;
+			margin: 50px 0 0 0;
+		}		
+		
+		h4{
+			font-weight: 300;
+			font-size: 30px;
+			margin: 50px 0 0 0;
+		}
+		
+		p {
+			font-weight: 300;
+			font-size:20px;
+			line-height: 120%;
+			color:#000000;
+		}
+		
+			
+/*======================================================
+														Меню
+======================================================*/	
+		
+		.menu {
+			text-align: left;
+		}
+		
+		div.menu-logo, .menu-item, .menu-question{
+			float:left;
+		}
+		
+		.menu-item{
+			text-align:right;
+			font-size:14px;
+			font-weight:300;
+			float:right;
+		}
+		
+		.item{
+			padding: 10px 0px 0px 55px;
+			float:right;
+		}
+		
+		
+		
+		.menu-question {
+			text-align:right;
+		}
+		
+		div.menu-question p{
+			margin: 0px 0px 10px 0px;
+		}
+		
+		.button-small-white{
+			background: -moz-linear-gradient(#ffffff, #ededed);
+			background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#ededed));
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed');
+			font-family:'Open Sans';
+			font-size:13px;
+			font-weight:300;
+			color: #000000;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			border-radius: 5px;
+			border: 1px solid #d5d5d5;
+			padding: 2px 9px 4px 10px;
+			outline:0;
+			margin-left:0px;
+			cursor:pointer;
+		}
+		
+		.button-small-white:hover{
+			background: -moz-linear-gradient(#ffffff, #f6f6f6);
+			background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f6f6f6));
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6');
+			border: 1px solid #b6b6b6;
+		}
+		
+/*======================================================
+														Хеадер
+======================================================*/		
+			
+		.wrapper{
+			max-width: 100%;
+			min-width: 1020px;
+			overflow: hidden;
+		}
+
+		.main-bg{
+			padding-top:20px;
+			width:100%;
+			height:1030px;
+			background-color:#eae3f1;
+		}	
+		
+		.wrapper-min{
+			max-width: 970px;
+			min-width: 970px;
+			margin: auto;
+			text-align:center;
+		}
+		
+		.header{
+			padding-top:45px;
+			text-align:center;
+		}
+				
+		h1{
+			font-weight: 300;
+			font-size: 49px;
+			line-height:130%;
+			margin-bottom: 30px;
+		}	
+		
+		div.header p{
+			font-weight: 300;
+			font-size:20px;
+			line-height: 150%;
+			color:#777777;
+			margin-bottom:25px;
+		}
+		
+		span{
+			font-weight: 300;
+			font-size:28px;
+		}
+		
+		.header-buttons{
+			margin:40px 0px 30px 0px
+		}
+		
+		div.header-buttons button{
+			margin: 0px 7px 0px 7px;
+		}
+		
+		.button-small-blue{
+			background: -moz-linear-gradient(#50b2ff, #005fc0);
+			background: -webkit-gradient(linear, 0 0, 0 100%, from(#50b2ff), to(#005fc0));
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#50b2ff', endColorstr='#005fc0');
+			font-family:'Open Sans';
+			font-size:16px;
+			font-weight:300;
+			color: #ffffff;
+			text-align:center;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			border-radius: 5px;
+			border: 1px solid #076bd2;
+			padding: 5px 18px 7px 18px;
+			outline:0;
+			cursor:pointer;
+		}
+		
+		
+		.button-small-blue:hover{
+			background: -moz-linear-gradient(#28a0ff, #086cd3);
+			background: -webkit-gradient(linear, 0 0, 0 100%, from(#28a0ff), to(#086cd3));
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#28a0ff', endColorstr='#086cd3');
+		}
+		
+		div.header-buttons a {
+			text-decoration: none;
+			border-bottom: 0px dotted #b5b5b5;
+		}
+		
+	/* shop*/
+	
+		.shop-bg-soft{
+			padding-top:20px;
+			width:100%;
+			height:920px;
+			background: #ebf4ff; /* Для старых браузров */
+			background: linear-gradient(to top, #f4f9ff, #e6ecff);
+		}	
+		
+		.shop-bg-medium{
+			padding-top:20px;
+			width:100%;
+			height:860px;
+			background: #fff7d9; /* Для старых браузров */
+			background: linear-gradient(to top, #fffae8, #fff5d1);
+		}	
+		
+		.shop-bg-solid{
+			padding-top:20px;
+			width:100%;
+			height:860px;
+			background: #feefe5; /* Для старых браузров */
+			background: linear-gradient(to top, #fff5f3, #feebe6);
+		}	
+		
+		.shop-header{
+			padding-top:45px;
+			text-align:left;
+		}
+		
+		.shop-descriptor{
+		width:415px;
+		position: absolute;
+		}
+		
+		div.shop-descriptor p{
+			font-size:16px;
+			line-height:150%;
+			margin-top:0px;
+		}
+		
+		.shop-img{
+			  margin-top: 40px;
+		}
+		
+		div.shop-column {
+			width:323px;
+			text-align:center;
+			float:left;
+			padding-top: 25px;
+		}
+		
+		div.shop-column p{
+			margin-top:0px;
+		}
+		
+/* shop*/
+
+
+
+/*======================================================
+														Order
+======================================================*/	
+		.order-wrapper-min {
+			max-width: 970px;
+			min-width: 970px;
+			margin: auto;
+			text-align:left;
+		}
+
+		.order-header {
+			padding-top:20px;
+		}
+
+		div.order-left, .order-right {
+			float:left;
+			width:460px;
+			margin-bottom:200px;
+		}
+		
+		.order-right {
+			padding-top:50px;
+			text-align:center;
+		}
+		
+		div.order-left span {
+			font-size:12px;
+		}
+		
+		div.order-left h2 {
+			margin: 40px 0px 40px 0px;
+		}
+		
+		.order-comment{
+			margin-top:25px;
+			line-height:80%;
+			width:396px;
+		}
+		
+		div.order-right span{
+			font-weight: 300;
+			font-size: 28px;
+			line-height: 150%;
+		}
+		
+		div.order-right p{
+			font-weight: 300;
+			font-size: 16px;
+			margin:0px 0px 15px 0px;
+			line-height:150%;
+		}
+		
+
+/*======================================================
+														Support
+======================================================*/	
+		.support-wrapper-min {
+			max-width: 970px;
+			min-width: 970px;
+			margin: auto;
+			text-align:center;
+			font-size:16px;
+			font-weight:300;
+		}
+		
+		.support-title{
+			text-align:center;			
+		}
+		
+		div.support-title p {
+			font-size:16px;
+			line-height:150%;
+		}
+		
+		div.support-title h1 {
+			font-size:35px;
+			line-height:130%;
+			margin-top: 75px;
+		}
+		
+		.support-title-half{
+			float:left;
+			width:50%;
+		}
+
+		.support-header {
+			padding-top:20px;
+		}
+		
+		hr {
+			border: none; /* Убираем границу для браузера Firefox */
+			color: #e7e7e7;
+			background-color: #e7e7e7; /* Цвет линии для браузера Firefox и Opera */
+			height: 1px;
+			margin:-5px 0px 0px 0px;
+		}
+		
+		.hr-vert{
+			width:1px;
+			height:670px;
+			float:left;
+			margin-top: 15px;
+		}
+		
+		.support-contacts {
+			text-align:center;
+			height: 900px;
+		}
+		
+		div.support-contacts h2{
+			font-weight: 300;
+			font-size: 26px;
+			margin: 30px 0px 0px 0px;
+		}
+		
+		div.support-contacts p{
+			font-weight: 300;
+			font-size: 16px;
+			margin: 20px 0px 55px 0px;
+			line-height:140%;
+		}
+		
+		div.support-contacts-title h1{
+			font-weight: 300;
+			font-size: 35px;
+			margin: 80px 0px 60px 0px;
+		}
+		
+		div.support-contacts-email, .support-contacts-telephone{
+			float:left;
+			width:49%;
+		}
+		
+		.contacts-button-margin {
+			margin-top:20px;
+		}
+
+		
+		
+/*======================================================
+														Акции
+======================================================*/	
+
+		.action-1{
+			background-color:#9ccf00;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			border-radius: 5px;
+			width:270px;
+			height:32px;
+			font-weight:300;
+			color:#ffffff;
+		}
+		
+		.action-2{
+			background-color:#9ccf00;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			border-radius: 5px;
+			width:210px;
+			height:32px;
+			font-weight:300;
+			color:#ffffff;
+		}
+		
+		div.action-ico{
+			float:left;
+			margin: 4px 0px 0px 10px;
+		}
+		
+		div.action-name{
+			float:left;
+			margin: 5px 0px 0px 10px;
+		}
+		
+		div.action-img, .action-info{
+			float:left;
+			text-align:left;
+		}
+		
+		.action-img{
+			width: 400px;
+			margin-top: 90px;
+		}
+		
+		.action-info{
+			width: 500px;
+			margin-left: 45px;
+		}
+		
+		.action-time-ico{
+			float:left;
+		}
+		
+		.action-time-text {
+			float:left;
+		}
+		
+		div.action-time-text span {
+			font-weight: 300;
+			font-size: 16px;
+		}
+		
+		div.action-time-text p{
+			font-weight: 300;
+			font-size:16px;
+			color:#EF9A5C;
+			margin: 1px 0px 0px 10px;
+		}
+
+		.gradient {
+			height:490px;
+			background: #ffffff; /* Для старых браузров */
+			background: linear-gradient(to top, #f7f7f7, #ffffff);
+			padding-top: 80px;
+		}
+		
+		h2{
+			font-weight: 300;
+			font-size: 39px;
+			margin: 40px 0px 40px 0px;
+		}			
+		
+		.descriptor-content{
+			font-size: 18px;
+			padding-top:15px;
+			margin-bottom:15px;
+			margin:auto;			
+		}
+		
+		div.descriptor p{
+			font-weight: 300;
+			font-size:18px;
+			line-height: 150%;
+			color:#777777;
+			margin-bottom: 50px;
+		}
+		
+		div.action-time-text a{
+			color:#EF9A5C;
+		}
+		
+
+/*======================================================
+														Три вида плотности
+======================================================*/	
+		
+		.wrap {
+			padding-top: 55px;
+		}
+		
+		.density{
+			height:460px;
+			margin-top: 70px;
+		}
+		
+		div.density span{
+			font-weight: 300;
+			font-size:25px;
+		}
+		
+	
+		
+		.button-buy{
+			margin: 10px 0px 0px 0px;
+		}
+		
+		
+		div.density-price {
+			font-size:18px;
+			font-weight:300;
+			padding-top:8px;
+			padding-bottom: 12px;
+		}
+		
+		div.density-img {
+			padding-bottom: 12px;
+		}
+
+		
+		button{
+			background: -moz-linear-gradient(#28a0ff, #086cd3);
+			background: -webkit-gradient(linear, 0 0, 0 100%, from(#28a0ff), to(#086cd3));
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#28a0ff', endColorstr='#086cd3');
+			font-family:'Open Sans';
+			font-size:18px;
+			font-weight:300;
+			color: #ffffff;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			border-radius: 5px;
+			border: 1px solid #076bd2;
+			padding: 10px 20px 13px 20px;
+			outline:0;
+			margin-left:0px;
+			cursor:pointer;
+			}
+		
+		button:hover{
+			background: -moz-linear-gradient(#28a0ff, #0371eb);
+			background: -webkit-gradient(linear, 0 0, 0 100%, from(#28a0ff), to(#0371eb));
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#28a0ff', endColorstr='#0371eb');
+			}
+				
+		a {
+			text-decoration: none;
+			border-bottom: 1px dotted #b5b5b5;
+			color: black;
+		}
+			
+		a:hover {
+			text-decoration: none;
+			border-bottom: 0px solid #d32734;
+			color: black;
+		}
+			
+		a.img {
+			border-bottom: none;
+		}
+		
+		div.button-buy a {
+			text-decoration: none;
+			border-bottom: 0px dotted #b5b5b5;
+		}
+		
+		div.button-buy .button-small-blue {
+			width:113px
+		}
+
+		
+		
+
+/*======================================================
+														Доставка
+======================================================*/
+
+		div.delivery-left, .delivery-right {
+			float:left;
+			width:470px;
+			padding-top:20px;
+			height:155px;
+		}
+		
+		div.delivery-left span{
+			font-size:14px;
+		}
+		
+		div.delivery-right span{
+			font-size:14px;
+		}
+/*======================================================
+											Попап Задать вопрос
+======================================================*/
+		.question-center{
+			margin:auto;
+			width:400px;
+		}
+		
+		
+		form p {
+			font-weight: 300;
+			line-height: 150%;
+			color:#000000;
+			margin: 20px 0px 5px 0px;
+		}
+		
+		input{
+			width:380px;
+			height:42px;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			-khtml-border-radius: 5px;
+			border-radius: 5px;
+			border:1px solid #d4d4d4;
+			padding: 0px 0px 0px 14px;
+			margin: 0px 0px 15px 0px;
+			font-family:open sans;
+			font-size: 19px;
+			font-weight: 300;
+			box-shadow: inset 0 1px 5px #d8d8d8;
+			}
+		
+		textarea{
+			width: 372px;
+			max-width:372px;
+			height: 80px;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			-khtml-border-radius: 5px;
+			border-radius: 5px;
+			border:1px solid #d4d4d4;
+			padding: 7px 8px 9px 14px;
+			margin: 0px 0px 15px 0px;
+			font-family:open sans;
+			font-size: 19px;
+			font-weight: 300;
+			box-shadow: inset 0 1px 5px #d8d8d8;
+			}
+			
+		div.question-center #close-button {
+			background: -moz-linear-gradient(#ffffff, #ededed);
+			background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#ededed));
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed');
+			font-family:'Open Sans';
+			font-size:18px;
+			font-weight:300;
+			color: #000000;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			border-radius: 5px;
+			border: 1px solid #d5d5d5;
+			padding: 10px 31px 13px 29px;
+			outline: 0;
+			margin-left: 10px;
+			cursor:pointer;
+		}
+		
+		div.question-center #close-button:hover {
+			background: -moz-linear-gradient(#ffffff, #f6f6f6);
+			background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#f6f6f6));
+			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6');
+			border: 1px solid #b6b6b6;
+		}
+
+		
+/*======================================================
+											Попап Сколько осталось
+======================================================*/
+
+		.modal {
+			background:#ffffff;
+			width: 850px;
+			margin: 20px auto;
+			padding: 25px 40px 75px 40px;
+			border-radius:5px;
+			border: 1px solid #cfcfcf;
+			box-shadow: 0px 0px 12px rgba(180,180,180,0.75);
+		}
+
+		.modal .close {
+			float: right;
+			text-decoration: none;
+			font-size: 40px;
+			cursor: pointer;
+			border-bottom: none;
+		}
+		
+		.close:hover {
+			color: #0089fa;
+		}
+		
+		.popup-center{
+			text-align:center;
+		}
+		
+		div.modal h3{
+			margin: 60px 0px 0px 0px;
+		}
+		
+		div.modal-lim-left, .modal-lim-right {
+			float:left;
+			width: 420px;
+			margin-top:40px;
+		}
+		
+		div.modal-lim-left img {
+			margin: 20px 0px 0px 20px;
+		}
+		
+		.balance {
+			width:100%;
+			text-align:center;
+			margin-top:-8px;
+		}
+		
+		div.balance p {
+			line-height:200%;
+		}
+		
+		div.balance span {
+			font-size:14px;
+			font-weight:300;
+			color:#c0c0c0;
+		}
+		
+		.column-name {
+			font-weight:600;
+		}
+		
+		div.column1, .column2, .column3 {
+			float:left;
+			width:275px;
+			margin: 35px 10px 50px 0px;
+		}
+		
+		div.column3 {
+			margin-right:0px;
+		}
+		
+		#close-button {
+			float: none;
+			font-size: 18px; 
+		}
+		
+		#close-button:hover {
+			color: #ffffff;
+		}
+	
+
+		
+			
+/*======================================================
+													FOOTER
+======================================================*/
+
+		.footer-wrapper{
+			width: 100%;
+			height: 140px;
+			margin-top: 0px;
+			background-color: #F7F7F7;
+		}
+		
+		.footer{
+			text-align:left;
+			padding-top:20px;
+		}
+		
+		.footer-copyright{
+			float:left;
+			width:685px;
+			margin-left: 30px;
+		}
+		
+		.footer-social{
+			float:left;
+		}
+		
+		.social-ico{
+			float:left;
+			margin: 0px 0px 0px 3px;
+		}
+		
+		div.footer-wrapper p{
+			font-size:14px;
+			line-height: 150%;
+		}
+	
+					
+					
+/*======================================================
+									ОЧИСТКА СТИЛЕЙ. ВОЛШЕБСТВО
+======================================================*/
+
+		div:after {
+			content:".";
+			display:block;
+			clear:both;
+			visibility:hidden;
+			line-height: 0px;
+			height:0px;
+		}
+			
+/*======================================================
+													АНИМАЦИЯ
+======================================================*/
+			.time1  {
+			-webkit-animation-delay: 0.3s;
+			}
+			.time2  {
+			-webkit-animation-delay: 0.6s;
+			}
+			.time3  {
+			-webkit-animation-delay: 0.9s;
+			}
+		   .time4  {
+			-webkit-animation-delay: 1.2s;
+			}
+			.time5  {
+			-webkit-animation-delay: 1.5s;
+			}
+			
+			.hidden{
+			opacity:0;
+			}
+			.visible{
+			opacity:1;
+			}
